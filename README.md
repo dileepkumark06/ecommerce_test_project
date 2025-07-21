@@ -1,3 +1,4 @@
+
 # 🛒 E-Commerce Checkout Automation – Selenium Project
 
 This project automates an end-to-end product purchase flow on the [TutorialsNinja Demo Site](https://tutorialsninja.com/demo/) using **Python**, **Selenium WebDriver**, and **ChromeDriver**.
@@ -35,42 +36,49 @@ This automation script simulates a real-world online shopping scenario:
 ```bash
 git clone https://github.com/dileepkumark06/ecommerce_test_project.git
 cd ecommerce_test_project
-🔹 2. Install Required Packages
-bash
-Copy
-Edit
+```
+
+### 🔹 2. Install Required Packages
+
+```bash
 pip install -r requirements.txt
+```
+
 ✅ Make sure Chrome and ChromeDriver are installed and available in your system path.
 
-🔹 3. Run the Script
-bash
-Copy
-Edit
+### 🔹 3. Run the Script
+
+```bash
 python ecommerce_checkout_test.py
-📷 Features Demonstrated
-Web element interactions: click(), send_keys(), scrollIntoView()
+```
 
-Handling dropdowns with Select
+---
 
-Calendar date selection
+## 📷 Features Demonstrated
 
-Taking screenshots
+- Web element interactions: `click()`, `send_keys()`, `scrollIntoView()`
+- Handling dropdowns with `Select`
+- Calendar date selection
+- Taking screenshots
+- Dynamic waits with `time.sleep()`
+- XPath navigation and validations
+- Cart and checkout flow automation
 
-Dynamic waits with time.sleep()
+---
 
-XPath navigation and validations
+## 📂 Folder Structure
 
-Cart and checkout flow automation
-
-📂 Folder Structure
-bash
-Copy
-Edit
+```
 ecommerce_test_project/
 ├── ecommerce_checkout_test.py   # Main automation script
 ├── requirements.txt             # Project dependencies
 └── README.md                    # Project documentation
-✍️ Author
-Dileep Kumar
-QA Automation Enthusiast | Python + Selenium Projects
-🔗 GitHub Profile
+```
+
+---
+
+## ✍️ Author
+
+**Dileep Kumar**  
+QA Automation Enthusiast | Python + Selenium Projects  
+🔗 [GitHub Profile](https://github.com/dileepkumark06)
